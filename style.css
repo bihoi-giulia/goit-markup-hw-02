@@ -1,0 +1,26 @@
+:root {
+  --highlight-color: #2f303a;
+  --white-color: #ffffff;
+}
+body {
+}
+
+.page-header {
+}
+
+.page-header nav ul {
+  list-style: none;
+}
+
+.nav-button {
+  color: #ffff;
+  background-color: #2196f3;
+  border: 1px solid var(--highlight-color--);
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+}
