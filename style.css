@@ -165,3 +165,42 @@ body {
 .adress-link:focus {
   color: var(--highlight-color);
 }
+
+/*Portofolio HTML*/
+
+.button-section:hover {
+  background-color: var(--highlight-color);
+  color: var(--white-color);
+  outline: none;
+}
+
+.button-section,
+.button-section:active,
+.button-section:focus {
+  color: var(--balck-color);
+  background: color #f5f4ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  outline: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.services {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--balck-color);
+}
+.button-services {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--gray-color);
+}
