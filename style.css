@@ -73,11 +73,18 @@ body {
   letter-spacing: 0.06em;
 }
 
-.service-button:hover,
+.service-button:hover {
+  color: var(--white-color);
+  background-color: var(--highlight-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 .service-button:active,
 .service-button:focus {
   color: var(--white-color);
   background-color: var(--highlight-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .main-section {
@@ -171,36 +178,27 @@ body {
 .button-section:hover {
   background-color: var(--highlight-color);
   color: var(--white-color);
-  outline: none;
-}
-
-.button-section,
-.button-section:active,
-.button-section:focus {
-  color: var(--balck-color);
-  background: color #f5f4ff;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
-  outline: none;
 }
-
-.list {
+.button-section:active,
+.button-section:focus .list {
   list-style-type: none;
 }
 
-.services {
+.subtitle-detailes {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   color: var(--balck-color);
+  letter-spacing: 0.06em;
 }
-.button-services {
+.paragraf-detailes {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   color: var(--gray-color);
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style-type: none;
 }
